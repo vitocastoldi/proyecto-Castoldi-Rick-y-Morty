@@ -1,0 +1,14 @@
+
+.container-header{
+    background-color: #ffffffe6;
+    width: 600px;
+    margin-top: 170px;
+    padding: 50px;
+}
+
+.row{
+    font-weight: 900;
+}
+.fw-semibold{
+    font-weight: 300;
+}
