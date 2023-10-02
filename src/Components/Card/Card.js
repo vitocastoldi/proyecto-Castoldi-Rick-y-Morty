@@ -11,11 +11,13 @@ export default function Card({data}) {
 
     }
     return(
-        <div className="card w-25 bg-primary mb-3 p-2"> 
-            <img src={data.image} alt="imagen-personaje"/>
-            <h3>{data.name}</h3>
-            <button className={show?"d-none":"d-block"} onClick={mostrarLista}>Know more..</button>
-            {show === true? <InfoCard status={data.status} genero={data.gender} especie={data.species} origen={data.origin.name} setShow={setShow}/>: ''}
+        <div className="card m-2 p-2 d-flex flex-row justify-content-between align-items-center">
+            <div className="d-flex flex-column justify-content-between align-items-center"> 
+                <img src={data.image} alt="imagen-personaje"/>
+                <h2 className="size-name text-center name-card">{data.name}</h2>
+                <button className={show?"d-none":"d-block btn btn-active align-self-end more"} onClick={mostrarLista}>Know more..</button>
+            </div>
+                {show === true? <InfoCard status={data.status} genero={data.gender} especie={data.species} origen={data.origin.name} setShow={setShow}/>: ''}
         </div>
     )
 }

@@ -1,3 +1,11 @@
 .card{
-    width: fit-content;
+    background-color: #223142!important;
+    width: fit-content!important;
+}
+.size-name{
+    width: 300px;
+}
+
+.name-card {
+    color: #6eccaf;
 }

@@ -1,0 +1,17 @@
+.list-group{
+    width: 380px!important;
+}
+
+.list-group-item {
+    background-color: initial!important;
+    color: #f5f5f5!important;
+    font-size: 1.2rem;
+    border-color: #344d67;
+    
+}
+
+.list-group-item:hover{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    cursor: pointer;
+}

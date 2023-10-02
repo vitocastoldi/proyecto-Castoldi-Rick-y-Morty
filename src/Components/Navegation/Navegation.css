@@ -1,0 +1,46 @@
+.bg-blue{
+    background-color: #344d67;
+}
+.cursor-p{
+    cursor: pointer!important;
+}
+header{
+    
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bi{
+    color: #6ECCAF;
+}
+
+
+.navbar-brand:hover{
+    color: #6ECCAF;
+    cursor: default;
+}
+.navbar-toggler{
+   border:none;
+}
+
+@media(max-width:800px){
+    header{
+        padding: 2px;
+    }
+
+}
+@media(max-width:500px){
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        padding: 10px!important;
+    }
+}

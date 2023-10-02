@@ -2,8 +2,6 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Inconsolata', monospace;
-  font-family: 'Josefin Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -13,3 +11,4 @@ body{
   background-size: cover;
   color: #344d67;
 }
+
